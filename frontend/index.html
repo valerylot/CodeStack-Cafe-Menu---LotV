@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+
+  <!-- Fonts (already set up for you) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;900&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind (already set up for you) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // This lets you use the classes `font-sans` (Inter Tight) and `font-serif` (Instrument Serif)
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Inter Tight"', 'sans-serif'],
+            serif: ['"Instrument Serif"', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<!-- TODO: give the body a background color, text color and font -->
+
+<body class="bg-stone-100 min-h-screen flex flex-col">
+
+  <!-- ===== HEADER ===== -->
+  <header class="m-2 sm:m-6">
+    <!-- TODO: address, hours and phone go here (from the API) -->
+    <div id="restaurant-info" class="flex flex-wrap justify-between"></div>
+
+    <!-- TODO: the restaurant name — make it HUGE -->
+    <h1 id="restaurant-name" class="font-black text-6xl sm:text-8xl lg:text-[140px] uppercase mt-10"></h1>
+
+    <!-- TODO: the tagline — italic serif, accent color -->
+    <p id="tagline" class="text-orange-700 font-serif italic text-3xl pb-8"></p>
+  </header>
+
+  <!-- ===== CATEGORY NAV ===== -->
+  <!-- TODO: make the nav stick to the top of the screen when you scroll -->
+  <nav class="sticky top-0 z-50 bg-stone-100">
+    <!-- One link per category goes in here (from the API) -->
+    <ul id="category-nav" class="flex justify-between border-t border-b border-black p-3 sm:justify-start sm:gap-3"></ul>
+  </nav>
+
+  <!-- ===== MENU ===== -->
+  <!-- One <section> per category goes in here (from the API) -->
+  <main id="menu" class="flex-1">
+    <p id="status">Loading the menu…</p>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-stone-900">
+    <p id="footer-name" class="text-stone-100 text-4xl font-bold m-4 uppercase pt-8 "></p>
+    <p id="footer-info" class="md:flex justify-start gap-4 m-4 pb-8"></p>
+  </footer>
+
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

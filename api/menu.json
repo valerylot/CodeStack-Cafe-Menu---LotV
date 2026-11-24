@@ -1,0 +1,138 @@
+{
+  "restaurant": {
+    "id": 1,
+    "name": "CodeStack Café",
+    "tagline": "fuel for your next commit",
+    "address": "Room 101 · Main Campus",
+    "hours": "Mon–Fri · 8am–5pm",
+    "phone": "(555) 010-1010"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Boot Up"
+    },
+    {
+      "id": 2,
+      "name": "Main Functions"
+    },
+    {
+      "id": 3,
+      "name": "Sweet Syntax"
+    },
+    {
+      "id": 4,
+      "name": "Fuel"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Hello World Fries",
+      "category_id": 1,
+      "price": 5,
+      "description": "Everyone's first order. Crispy fries, sea salt, garlic aioli.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162307_9b9ee337-45a3-47fd-8140-c40751d4bde2.png",
+      "tag": "vegetarian"
+    },
+    {
+      "id": 2,
+      "name": "Bug Bites",
+      "category_id": 1,
+      "price": 8,
+      "description": "Crispy popcorn chicken you'll want to squash. Hot honey drizzle.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162307_854e18ae-066a-4900-8c37-1aacaa404583.png",
+      "tag": "spicy"
+    },
+    {
+      "id": 3,
+      "name": "Array of Nachos",
+      "category_id": 1,
+      "price": 9,
+      "description": "Every index filled: cheese, jalapeños, pico de gallo, crema.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162311_8f38d949-7953-4e8a-84d4-673870a3b69e.png",
+      "tag": "spicy"
+    },
+    {
+      "id": 4,
+      "name": "Full-Stack Burger",
+      "category_id": 2,
+      "price": 14,
+      "description": "Front end to back end: brioche, two patties, cheddar, lettuce, tomato, stack sauce.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162310_b215c076-19aa-440f-ac37-7862bc21a418.png",
+      "tag": "popular"
+    },
+    {
+      "id": 5,
+      "name": "Recursive Ramen",
+      "category_id": 2,
+      "price": 13,
+      "description": "Keeps calling you back. Rich broth, soft egg, scallions, nori.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162309_d0f375a3-1818-43b0-9130-d7b18f68399b.png",
+      "tag": "new"
+    },
+    {
+      "id": 6,
+      "name": "Boolean Bowl",
+      "category_id": 2,
+      "price": 12,
+      "description": "Healthy? true. Quinoa, roasted sweet potato, chickpeas, avocado, tahini.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162309_9b7edb6a-7a01-46b8-9d97-a6bbb57079c7.png",
+      "tag": "vegan"
+    },
+    {
+      "id": 7,
+      "name": "Pepperoni Pi",
+      "category_id": 2,
+      "price": 15,
+      "description": "3.14 slices of wood-fired pepperoni pizza, rounded up to a whole pie.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162310_0a81cf3a-03a0-4131-94e2-104aee460157.png",
+      "tag": "popular"
+    },
+    {
+      "id": 8,
+      "name": "Cookie Session",
+      "category_id": 3,
+      "price": 4,
+      "description": "Stored on a plate, not in your browser. Warm chocolate chip cookies.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162309_275851c7-5f54-41a7-a492-88bc69c500e1.png",
+      "tag": "vegetarian"
+    },
+    {
+      "id": 9,
+      "name": "Stack Overflow Pancakes",
+      "category_id": 3,
+      "price": 10,
+      "description": "So many pancakes it overflows. Maple syrup, butter, fresh berries.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162311_b26d8300-8982-411b-a940-2f09704ae1a2.png",
+      "tag": "vegetarian"
+    },
+    {
+      "id": 10,
+      "name": "Infinite Loops",
+      "category_id": 3,
+      "price": 6,
+      "description": "Glazed mini donuts. Once you start, you can't break out.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162308_b3c0dac4-c128-4bf7-815b-e4b1920a153c.png",
+      "tag": "vegetarian"
+    },
+    {
+      "id": 11,
+      "name": "Java",
+      "category_id": 4,
+      "price": 3,
+      "description": "The original. Hot drip coffee, unlimited refills.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162307_2b4f2a1c-4691-4573-b3b3-c4e41e9b5123.png",
+      "tag": "vegan"
+    },
+    {
+      "id": 12,
+      "name": "Bubble Sort Boba",
+      "category_id": 4,
+      "price": 6,
+      "description": "Brown sugar milk tea with boba pearls, sorted by hand.",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GGwBNw8fg2S7ueDBRFueP9aery/hf_20261119_162308_0a6b9c38-02d6-402a-be35-771085c95548.png",
+      "tag": "vegetarian"
+    }
+  ]
+}
